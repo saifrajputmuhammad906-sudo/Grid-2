@@ -1,0 +1,88 @@
+
+.Father {
+    gap: 10px;
+    width: 100%;
+    height: 500px;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+}
+
+.son {
+    background-color: greenyellow;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.box1 {
+    grid-row: 1/13;
+}
+
+.box2 {
+    grid-row: 1/7;
+
+}
+
+.box3 {
+    grid-row: 7/13;
+}
+
+.box4 {
+    grid-row: 1/5;
+
+}
+
+.box5 {
+    grid-row: 5/9;
+
+}
+
+.box6 {
+    
+    grid-row: 9/13;
+}
+
+.box7 {
+    grid-row: 1/4;
+}
+
+.box8 {
+    grid-row: 4/7;
+}
+
+.box9 {
+    grid-row: 7/10;
+}
+
+.box10 {
+    grid-row: 10/13;
+
+}
+
+.box11 {
+    grid-row: 1/3;
+}
+
+.box12 {
+    grid-row: 3/5;
+}
+
+.box13 {
+    grid-row: 5/7;
+}
+
+.box14 {
+    grid-row: 7/9;
+}
+
+.box15 {
+    grid-row: 9/11;
+}
+
+.box16 {
+    grid-row: 11/13;
+}
